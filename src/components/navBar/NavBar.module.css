@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;   
+  }
+
+  .NavBar {
+    width: 100%;
+    position: fixed;
+    opacity: 0.9;
+    background: #97816D;
+  }
+  
+  .Text {
+    font-family: cursive;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+  
+  .Btn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: -1rem;
+    color: black;
+    font-size: 1rem;
+    font-family: cursive;
+    margin-left: 42rem;
+    margin-right: -35rem;
+    height: 1rem;
+    position: relative;
+    top: -3rem;
+  }
+
+  .Btn1 {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: -1rem;
+    color: black;
+    font-size: 1rem;
+    font-family: cursive;
+    margin-left: 42rem;
+    margin-right: -35rem;
+    height: 1rem;
+    position: relative;
+    top: -3rem;
+  }
+  
+  @media (max-width: 575.98px)and (orientation:portrait) {
+    .logo {
+      margin-left: 2%;
+      width: 20%;
+      height: 20%;
+    }
+  
+    .Btn {
+      margin-left: 20%;
+      margin-right: -10%;
+    }
+  }
