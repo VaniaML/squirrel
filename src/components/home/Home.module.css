@@ -5,6 +5,30 @@
 
   .Img {
     margin-top: 6.1rem;
-    width: 100rem;
-    height: auto;
+    width: 84.3rem;
+    height: 30rem;
+  }
+
+  .Srv {
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+
+  .Line1 {
+    margin-top: 1.5rem;
+  }
+
+  .Line {
+    width: 5rem; 
+    margin: 0 auto; 
+    border: none;
+    border-radius: 2rem; 
+    height: .4rem; 
+    background-color: #E2D9CE; 
+  }
+
+  .Imgs {
+    margin-top: 2rem;
   }
