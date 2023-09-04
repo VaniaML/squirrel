@@ -3,10 +3,28 @@
     padding: 0;   
   }
 
+  .ImgContainer {
+    margin-top: 1.5rem;
+  }
+
+  .LineContainer {
+    display: flex;
+  }
+
   .Img {
     margin-top: 6.1rem;
     width: 84.3rem;
     height: 30rem;
+  }
+
+  .Name {
+    font-family: cursive;
+    margin-left: 2.5rem;
+    font-size: 1.3rem;
+  }
+
+  .Text {
+    margin-left: 2.5rem;
   }
 
   .Srv {
@@ -30,5 +48,10 @@
   }
 
   .Imgs {
-    margin-top: 2rem;
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    margin-left: 1.7rem;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 15rem;
   }
