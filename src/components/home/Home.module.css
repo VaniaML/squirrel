@@ -62,21 +62,21 @@
 
   .Img1 {
     margin-top: 1.5rem;
-    width: 200rem;
+    width: 50rem;
     height: 30rem;
   }
 
   .Abt{
     margin-top: 2rem;
-    margin-left: 35rem;
+    margin-left: 5rem;
     font-weight: bold;
     font-size: 1.7rem;
   }
 
   .LineAbt {
     margin-top: 5.5rem;
-    width: 35rem; 
-    margin-left: -4.5rem;
+    width: 25rem; 
+    margin-left: -4.1rem;
     border: none;
     border-radius: 2rem; 
     height: .4rem; 
@@ -86,7 +86,7 @@
   .About{
     text-align: justify;
     margin-right: 3rem;
-    margin-left: -10rem; 
+    margin-left: -5rem; 
     margin-top: 7.5rem;
     font-size: 1.2rem;
 
