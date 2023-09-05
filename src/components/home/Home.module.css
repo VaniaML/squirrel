@@ -55,3 +55,39 @@
     width: 25rem;
     height: 15rem;
   }
+
+  .AboutContainer {
+    margin-top: 1.5rem;
+  }
+
+  .Img1 {
+    margin-top: 1.5rem;
+    width: 200rem;
+    height: 30rem;
+  }
+
+  .Abt{
+    margin-top: 2rem;
+    margin-left: 35rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+
+  .LineAbt {
+    margin-top: 5.5rem;
+    width: 35rem; 
+    margin-left: -4.5rem;
+    border: none;
+    border-radius: 2rem; 
+    height: .4rem; 
+    background-color: #E2D9CE;
+  }
+
+  .About{
+    text-align: justify;
+    margin-right: 3rem;
+    margin-left: -10rem; 
+    margin-top: 7.5rem;
+    font-size: 1.2rem;
+
+  }

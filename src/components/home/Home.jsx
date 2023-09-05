@@ -7,6 +7,7 @@ import Patin from './patin.jpg';
 import Cerrucho from './cerrucho.jpg';
 import Carro from './carro.jpg';
 import Carreta from './carreta.jpg';
+import Bombero from './bombero.jpg';
 
 export default function Home() {
    
@@ -58,6 +59,28 @@ export default function Home() {
           <div className= {style.Text}>Carrying wood for the campfire</div>
           </div>
           </div>
+
+          <div className={style.AboutContainer}>
+          <div className={style.LineContainer}>          
+          <img className={style.Img1} src={ Bombero } alt="Bb" />
+          <p className={style.Abt}>ABOUT</p>
+          <hr className={style.LineAbt}></hr> 
+          <div className= {style.About}>Squirrels are small but amazingly hardworking creatures of nature. These small rodents are always busy, whether it's foraging for food, building nests, or storing supplies for the winter.
+          One of the most notable activities of squirrels is their constant search for food.
+          When fall arrives and temperatures begin to drop, squirrels become even more industrious. 
+          They spend hours collecting food and burying it in multiple secret locations. 
+          This strategy allows them to survive during the cold winter months when food is scarce.</div>
+          
+          </div>
+          </div>
+          <p>HOLA</p>
+          <p>HOLA</p>
+          <p>HOLA</p>
+          <p>HOLA</p>
+          <p>HOLA</p>
+          <p>HOLA</p>
+          <p>HOLA</p>
+          <p>HOLA</p>
           </div>
     
       )}
