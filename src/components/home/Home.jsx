@@ -1,5 +1,4 @@
 import React from 'react';
-import { createPortal } from 'react-dom';
 import style from './Home.module.css';
 import Ardillas from './ardillas.jpg';
 import Nieve from './nieve.jpg';
@@ -21,16 +20,6 @@ export default function Home() {
         <div className={style.Line1}>
         <hr className={style.Line}></hr>
         </div>
-
-        {/*{createPortal(
-        <div className={style.Portal}>
-          <h1 className={style.Txt}>FRIENDLY AND HARD-WORKING SQUIRRELS</h1>
-          <hr className={style.Line}></hr>
-          <h1 className={style.Txt1}>They love the forest</h1>
-          </div>,
-          document.body
-          
-        )}*/}
         </div>
         
         <div className={style.LineContainer}>
@@ -95,15 +84,7 @@ export default function Home() {
 
           <div className={style.ContactContainer}>
             <iframe className={style.Map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369702.88759945694!2d13.091970793484215!3d52.501505676123905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerl%C3%ADn%2C%20Alemania!5e0!3m2!1ses-419!2smx!4v1693947171327!5m2!1ses-419!2smx"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          <p>HOLA</p>
-          <p>HOLA</p>
-          <p>HOLA</p>
-          <p>HOLA</p> 
-          <p>HOLA</p>
-          <p>HOLA</p>
-          <p>HOLA</p>
-          <p>HOLA</p>
-          </div>
-          </div>
+            </div>
+            </div>
     
       )}

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;   
+  }
+
+  .Footer {
+    margin-top: 1.7rem;
+    width: 100%;
+    opacity: 0.9;
+    background: #7C725F;
+  }
+  
+  .Text {
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin-left: 1rem;
+    padding: -2rem;  
+  }
+
+  .Name {
+    top: -2rem;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 3rem;
+  }
+
+  .Btns {
+    margin-left: 13rem;
+  }
+  
+  .Btn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: -1rem;
+    color: black;
+    font-size: 1em;
+    font-family: cursive;
+    margin-left: 43rem;
+    margin-right: -40rem;
+    height: 1rem;
+    position: relative;
+    top: -2rem;
+  }
+
+  .Btn1 {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: -1rem;
+    color: black;
+    font-size: 1rem;
+    font-family: cursive;
+    margin-left: 42rem;
+    margin-right: -39rem;
+    height: 1rem;
+    position: relative;
+    top: -2rem;
+  }
