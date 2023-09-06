@@ -22,7 +22,7 @@ export default function Home() {
         <hr className={style.Line}></hr>
         </div>
 
-        {createPortal(
+        {/*{createPortal(
         <div className={style.Portal}>
           <h1 className={style.Txt}>FRIENDLY AND HARD-WORKING SQUIRRELS</h1>
           <hr className={style.Line}></hr>
@@ -30,8 +30,8 @@ export default function Home() {
           </div>,
           document.body
           
-      )}
-      </div>
+        )}*/}
+        </div>
         
         <div className={style.LineContainer}>
         <div className={style.ImgContainer}>     
