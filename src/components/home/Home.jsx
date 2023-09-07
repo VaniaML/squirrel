@@ -1,4 +1,5 @@
 import React from 'react';
+import { createPortal } from 'react-dom';
 import style from './Home.module.css';
 import Ardillas from './ardillas.jpg';
 import Nieve from './nieve.jpg';
@@ -20,6 +21,15 @@ export default function Home() {
         <div className={style.Line1}>
         <hr className={style.Line}></hr>
         </div>
+
+        {createPortal(
+        <div className={style.HeroBlock}>
+        <h1 className={style.HeroText1}>Hardworking, noble and friendly</h1>
+		    <hr className={style.Line3}></hr>
+		    <h1 className={style.HeroText2}>They love the forest</h1>
+        </div>,
+        document.body
+  )}
         </div>
         
         <div className={style.LineContainer}>
