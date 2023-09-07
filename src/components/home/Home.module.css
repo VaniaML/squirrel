@@ -96,9 +96,9 @@
   }
 
   .Map{   
-    margin-left: 10rem;
-    width: 65rem;
-    height: 45rem;
+    margin-left: 7rem;
+    width: 70rem;
+    height: 50rem;
     border-radius: 2rem;
     border: 0;
   }
@@ -116,14 +116,15 @@
   }
 
   .HeroText1 {
+    margin-left: 2rem;
     margin-top: 5rem;
-    text-align: center;
     font-size: 3rem;
   }
 
   .Line3 {
-    width: 5rem; 
-    margin: 0 auto; 
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    width: 5rem;   
     border: none;
     border-radius: 2rem; 
     height: .4rem; 
@@ -131,8 +132,79 @@
   }
 
   .HeroText2 {
+    margin-left: 2rem;
     margin-top: 1rem;
-    text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: cursive;
+  }
+
+  .MapForm {  
+    width: 55rem;
+    height: 30rem;
+    position: absolute;
+    top: 150rem;
+    margin-left: 15rem;
+    border-radius: 2rem;
+    opacity: 0.9;
+    background-color: #E2D9CE;
+  }
+
+  .FormTitle {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+  }
+
+  .FormTitle1 {
+    margin-left: 2.5rem;
+    margin-top: -.5rem;
+    
+    font-size: 1rem;
+    font-family: cursive;
+  }
+
+  .PropertyMap {
+    margin-top: 2rem; 
+  }
+
+  .FormName {
+    border-radius: .5rem;
+    width: 23rem;
+    height: 3rem;
+    margin-right: 4rem;
+    margin-left: 2rem;
+  }
+
+  .FormPhone{
+    border-radius: .5rem;
+    width: 23rem;
+    height: 3rem;
+  }
+
+  .FormEmail {
+    margin-top: 1rem;
+    border-radius: .5rem;
+    width: 50.2rem;
+    height: 3rem;
+    margin-left: 2rem;
+  }
+
+  .FormMessage {
+    border-radius: .5rem;
+    width: 50.2rem;
+    height: 7rem;
+    margin-left: 2rem;
+  }
+
+  .FormButton {
+    background-color:#97816D;
+    width: 50.3rem;
+    height: 3rem;
+    font-family: cursive;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: .5rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
   }

@@ -94,6 +94,29 @@ export default function Home() {
 
           <div className={style.ContactContainer}>
             <iframe className={style.Map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369702.88759945694!2d13.091970793484215!3d52.501505676123905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerl%C3%ADn%2C%20Alemania!5e0!3m2!1ses-419!2smx!4v1693947171327!5m2!1ses-419!2smx"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            {createPortal(
+            <div className={style.MapForm}>
+	          <h2 className={style.FormTitle}>Berlin, Germany</h2>
+	          <br></br>
+	          <p className={style.FormTitle1}>10AM - 9PM Monday to Friday</p>
+            <div className={style.PropertyMap}>
+	          <form>
+	          <input className={style.FormName} type="text" placeholder="Name" />
+	          <input className={style.FormPhone} type="text" placeholder="Phone" />
+	          <br></br>
+	          <input className={style.FormEmail} type="text" placeholder="Email" />
+	          <br></br>
+	          <br></br>
+	          <textarea className={style.FormMessage} placeholder="Message" />
+	          <br></br>
+	          <br></br>
+	          <input className={style.FormButton} type="button" value="Contact" />
+	          </form>
+            </div>
+            </div>,
+            document.body
+      )}
             </div>
             </div>
     
