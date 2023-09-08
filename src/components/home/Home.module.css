@@ -116,6 +116,7 @@
   }
 
   .HeroText1 {
+    color: white;
     margin-left: 2rem;
     margin-top: 5rem;
     font-size: 3rem;
@@ -132,6 +133,7 @@
   }
 
   .HeroText2 {
+    color: white;
     margin-left: 2rem;
     margin-top: 1rem;
     font-size: 1.5rem;
@@ -158,8 +160,7 @@
 
   .FormTitle1 {
     margin-left: 2.5rem;
-    margin-top: -.5rem;
-    
+    margin-top: -.5rem;  
     font-size: 1rem;
     font-family: cursive;
   }
