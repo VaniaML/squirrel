@@ -29,6 +29,7 @@
   }
   
   .Btn {
+    text-decoration: none;
     cursor: pointer;
     background: transparent;
     border: none;
@@ -44,6 +45,7 @@
   }
 
   .Btn1 {
+    text-decoration: none;
     cursor: pointer;
     background: transparent;
     border: none;
