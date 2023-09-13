@@ -15,10 +15,10 @@ export default function Home() {
     return(
       
       <div>
-        <div>
+        <div id='Home'>
         <img className={style.Img} src={ Ardillas } alt="Ardi" />
         <p className={style.Srv}>SERVICES</p>
-        <div className={style.Line1}>
+        <div id='Services' className={style.Line1}>
         <hr className={style.Line}></hr>
         </div>
 
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
           </div>
 
-          <div className={style.AboutContainer}>
+          <div id='About' className={style.AboutContainer}>
           <div className={style.LineContainer}>          
           <img className={style.Img1} src={ Bombero } alt="Bb" />
           <p className={style.Abt}>ABOUT</p>
@@ -85,7 +85,7 @@ export default function Home() {
           </div>         
           </div>
 
-          <div>
+          <div id='Contact'>
           <p className={style.Srv}>CONTACT</p>
           <div className={style.Line1}>
           <hr className={style.Line}></hr>
