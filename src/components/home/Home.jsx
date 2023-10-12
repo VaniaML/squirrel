@@ -25,8 +25,8 @@ export default function Home() {
         {createPortal(
         <div className={style.HeroBlock}>
         <h1 className={style.HeroText1}>Hardworking, noble and friendly</h1>
-		    <hr className={style.Line3}></hr>
-		    <h1 className={style.HeroText2}>They love the forest</h1>
+	  <hr className={style.Line3}></hr>
+	  <h1 className={style.HeroText2}>They love the forest</h1>
         </div>,
         document.body
   )}
@@ -46,29 +46,29 @@ export default function Home() {
           </div>
 
           <div className={style.ImgContainer}>
-          <img className={style.Imgs} src={ Patin } alt="Pt" />
+          <img className={style.Imgs1} src={ Patin } alt="Pt" />
           <div className= {style.Name}>Squirrel</div>
           <div className= {style.Text}>I work polishing the floor</div>
           </div>
           </div>
 
           <div className={style.LineContainer}>
-          <div className={style.ImgContainer}>
-          <img className={style.Imgs} src={ Cerrucho } alt="Ch" />
-          <div className= {style.Name}>Squirrel</div>
-          <div className= {style.Text}>Working cutting snowballs</div>
+          <div className={style.ImgContainer2}>
+          <img className={style.Imgs2} src={ Cerrucho } alt="Ch" />
+          <div className= {style.Name2}>Squirrel</div>
+          <div className= {style.Text2}>Working cutting snowballs</div>
           </div>
 
           <div className={style.ImgContainer}>
-          <img className={style.Imgs} src={ Carro } alt="Cr" />
-          <div className= {style.Name}>Squirrel</div>
-          <div className= {style.Text}>Driving on my way to work</div>
+          <img className={style.Imgs3} src={ Carro } alt="Cr" />
+          <div className= {style.Name3}>Squirrel</div>
+          <div className= {style.Text3}>Driving on my way to work</div>
           </div>
 
           <div className={style.ImgContainer}>
-          <img className={style.Imgs} src={ Carreta } alt="Ct" />
-          <div className= {style.Name}>Squirrel</div>
-          <div className= {style.Text}>Carrying wood for the campfire</div>
+          <img className={style.Imgs3} src={ Carreta } alt="Ct" />
+          <div className= {style.Name3}>Squirrel</div>
+          <div className= {style.Text3}>Carrying wood for the campfire</div>
           </div>
           </div>
 

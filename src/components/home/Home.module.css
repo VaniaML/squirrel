@@ -27,6 +27,26 @@
     margin-left: 2.5rem;
   }
 
+  .Name2 {
+    font-family: cursive;
+    margin-left: 2.5rem;
+    font-size: 1.3rem;
+  }
+
+  .Text2 {
+    margin-left: 2.5rem;
+  }
+
+  .Name3 {
+    font-family: cursive;
+    margin-left: 2.5rem;
+    font-size: 1.3rem;
+  }
+
+  .Text3 {
+    margin-left: 2.5rem;
+  }
+
   .Srv {
     margin-top: 2rem;
     text-align: center;
@@ -48,6 +68,32 @@
   }
 
   .Imgs {
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    margin-left: 1.7rem;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 15rem;
+  }
+  .Imgs1 {
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    margin-left: 1.7rem;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 15rem;
+  }
+
+  .Imgs2 {
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    margin-left: 1.7rem;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 15rem;
+  }
+
+  .Imgs3 {
     margin-top: 1.3rem;
     margin-right: 1rem;
     margin-left: 1.7rem;
@@ -199,6 +245,7 @@
   }
 
   .FormButton {
+    cursor: pointer;
     background-color:#97816D;
     width: 50.3rem;
     height: 3rem;
@@ -208,4 +255,193 @@
     border-radius: .5rem;
     margin-left: 2rem;
     margin-right: 5rem;
+  }
+
+  @media (max-width: 575.98px)and (orientation:portrait) {
+
+    .Img {
+      margin-top: 6.3rem;
+      width: 60rem;
+      height: 30rem;
+    }
+  
+    .Name2 {
+      font-family: cursive;
+      margin-left: 2.5rem;
+      font-size: 1.3rem;
+    }
+  
+    .Text2 {
+      margin-left: 2.5rem;
+    }
+
+    .Name3 {
+      font-family: cursive;
+      margin-right: 5rem;
+      font-size: 1.3rem;
+    }
+  
+    .Text3 {
+      margin-left: 2.5rem;
+    }
+  
+    .Srv {
+      margin-left: 25rem;
+      margin-top: 2rem;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.7rem;
+    }
+  
+    .Line1 {
+      margin-left: 26rem;
+      margin-top: 1.5rem;
+    }
+  
+    .Imgs1 {
+      margin-top: 25rem;
+      margin-left: -54rem;
+      border-radius: 1rem;
+      width: 25rem;
+      height: 15rem;
+    }
+
+    .ImgContainer2 {
+      margin-top: -22rem;
+    }
+
+    .Imgs2 {  
+      margin-left: 30rem;
+      border-radius: 1rem;
+      width: 25rem;
+      height: 15rem;
+    }
+
+    .Imgs3 {
+      margin-top: 1.3rem;
+      margin-right: 58rem;
+      margin-left: -55rem;
+      border-radius: 1rem;
+      width: 25rem;
+      height: 15rem;
+    }
+  
+    .AboutContainer {
+      margin-top: 1.5rem;
+    }
+  
+    .Img1 {
+      margin-top: 1.5rem;
+      width: 50rem;
+      height: 25rem;
+    }
+  
+    .Abt{
+      margin-top: 2rem;
+      margin-left: 5rem;
+      font-weight: bold;
+      font-size: 1.7rem;
+    }
+  
+    .LineAbt {
+      margin-top: 5.3rem;
+      width: 30rem; 
+      margin-left: -4.3rem;
+      border: none;
+      border-radius: 2rem; 
+      height: .4rem; 
+      background-color: #E2D9CE;
+    }
+  
+    .About{
+      text-align: justify;
+      margin-right: 3rem;
+      margin-left: -5rem; 
+      margin-top: 7.5rem;
+      font-size: 1.2rem;
+    }
+  
+    .ContactContainer {
+      margin-top: 2rem;
+    }
+  
+    .Map{   
+      margin-left: 7rem;
+      width: 70rem;
+      height: 50rem;
+      border-radius: 2rem;
+      border: 0;
+    }
+  
+    .MapForm {  
+      width: 55rem;
+      height: 30rem;
+      position: absolute;
+      top: 150rem;
+      margin-left: 15rem;
+      border-radius: 2rem;
+      opacity: 0.9;
+      background-color: #E2D9CE;
+    }
+  
+    .FormTitle {
+      margin-left: 2rem;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+      font-family: cursive;
+    }
+  
+    .FormTitle1 {
+      margin-left: 2.5rem;
+      margin-top: -.5rem;  
+      font-size: 1rem;
+      font-family: cursive;
+    }
+  
+    .PropertyMap {
+      margin-top: 2rem; 
+    }
+  
+    .FormName {
+      border-radius: .5rem;
+      width: 23rem;
+      height: 3rem;
+      margin-right: 4rem;
+      margin-left: 2rem;
+    }
+  
+    .FormPhone{
+      border-radius: .5rem;
+      width: 23rem;
+      height: 3rem;
+    }
+  
+    .FormEmail {
+      margin-top: 1rem;
+      border-radius: .5rem;
+      width: 50.2rem;
+      height: 3rem;
+      margin-left: 2rem;
+    }
+  
+    .FormMessage {
+      border-radius: .5rem;
+      width: 50.2rem;
+      height: 7rem;
+      margin-left: 2rem;
+    }
+  
+    .FormButton {
+      cursor: pointer;
+      background-color:#97816D;
+      width: 50.3rem;
+      height: 3rem;
+      font-family: cursive;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: .5rem;
+      margin-left: 2rem;
+      margin-right: 5rem;
+    }
+
   }
