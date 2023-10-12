@@ -49,6 +49,37 @@
   }
   
   @media (max-width: 575.98px)and (orientation:portrait) {
+    
+    .Btn {
+      text-decoration: none;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      padding: -1rem;
+      color: black;
+      font-size: 1.2em;
+      font-family: cursive;
+      margin-left: 25rem;
+      margin-right: -20rem;
+      height: 1rem;
+      position: relative;
+      top: -3rem;
+    }
 
+    .Btn1 {
+      text-decoration: none;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      padding: -1rem;
+      color: black;
+      font-size: 1.2rem;
+      font-family: cursive;
+      margin-left: 25rem;
+      margin-right: -20rem;
+      height: 1rem;
+      position: relative;
+      top: -3rem;
+    }
     
   }
