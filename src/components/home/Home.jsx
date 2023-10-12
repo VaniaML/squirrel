@@ -47,16 +47,16 @@ export default function Home() {
 
           <div className={style.ImgContainer}>
           <img className={style.Imgs1} src={ Patin } alt="Pt" />
-          <div className= {style.Name}>Squirrel</div>
-          <div className= {style.Text}>I work polishing the floor</div>
+          <div className= {style.Name2}>Squirrel</div>
+          <div className= {style.Text2}>I work polishing the floor</div>
           </div>
           </div>
 
           <div className={style.LineContainer}>
           <div className={style.ImgContainer2}>
           <img className={style.Imgs2} src={ Cerrucho } alt="Ch" />
-          <div className= {style.Name2}>Squirrel</div>
-          <div className= {style.Text2}>Working cutting snowballs</div>
+          <div className= {style.Name}>Squirrel</div>
+          <div className= {style.Text}>Working cutting snowballs</div>
           </div>
 
           <div className={style.ImgContainer}>
