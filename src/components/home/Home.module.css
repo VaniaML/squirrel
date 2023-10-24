@@ -326,27 +326,28 @@
       margin-left: -54rem;
     }
   
-    .AboutContainer {
-      margin-top: 1.5rem;
-    }
-  
     .Img1 {
       margin-top: 1.5rem;
-      width: 50rem;
-      height: 25rem;
+      width: 30rem;
+      height: 15rem;
+    }
+
+    .AboutContainer {
+      margin-top: 1.5rem;
+      display: flex;
     }
   
     .Abt{
-      margin-top: 2rem;
+      margin-top: 1.2rem;
       margin-left: 5rem;
       font-weight: bold;
       font-size: 1.7rem;
     }
   
     .LineAbt {
-      margin-top: 5.3rem;
+      margin-top: 4.5rem;
       width: 30rem; 
-      margin-left: -4.3rem;
+      margin-left: -5rem;
       border: none;
       border-radius: 2rem; 
       height: .4rem; 
@@ -354,11 +355,9 @@
     }
   
     .About{
-      text-align: justify;
-      margin-right: 3rem;
-      margin-left: -5rem; 
-      margin-top: 7.5rem;
-      font-size: 1.2rem;
+      text-align: justify;   
+      margin-top: 5.5rem;
+      margin-left: -8rem;
     }
   
     .ContactContainer {
